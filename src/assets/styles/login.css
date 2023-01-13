@@ -1,0 +1,52 @@
+.divider::after,
+.divider::before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 100px);
+}
+
+@media (max-width: 1200px) {
+  .h-custom {
+    height: calc(100% - 50px);
+  }
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.login__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/bg1.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+.w-custom {
+  width: 50%;
+}
+
+.social__buttons > button {
+  font-weight: bolder;
+  font-size: 16px;
+  height: 36px;
+  width: 36px;
+}
+
+.social__buttons > button i {
+  margin: 0;
+  padding: 0;
+}
+
+.login-btn {
+  width: 32%;
+  padding: 8px;
+}
